@@ -11,7 +11,7 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
 const images = [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: 'San Francisco United States',
     imgPath:
       'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
   },

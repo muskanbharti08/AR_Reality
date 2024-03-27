@@ -42,7 +42,7 @@ export default function Nav() {
       <List>
         {
         ['home', 'about', 'Residential Property', 'Commercial Property','Our Developers','contact'].map((text, index) => (
-         <Link to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text}`}> <ListItem key={text} disablePadding>
+         <Link to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text=="home"?"":text}`}> <ListItem key={text} disablePadding>
          <ListItemButton>
            <ListItemIcon>
              

@@ -8,7 +8,9 @@ import ImjComm from './ImjComm'
 export default function Home() {
   return (
     <div>
+<div className="mt-5  ">
 <Steper/>
+</div>
 <h1 className="text-center items-center hover:text-blue-700 text-lg font-semibold
 ">Residencial Property</h1>
 
