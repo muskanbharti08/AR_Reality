@@ -38,11 +38,11 @@ export default function Nav() {
      <div className="forphone sm:hidden">
      <Button onClick={toggleDrawer(true)}><DehazeIcon/></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
-      <Box sx={{ width: 450,height:200 }} role="presentation" onClick={toggleDrawer(false)}>
+      <Box sx={{ width: 450 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
         {
         ['home', 'about', 'Residential Property', 'Commercial Property','Our Developers','contact'].map((text, index) => (
-         <Link to={`/${text=="Residential Property"?"rproperty":text}`}> <ListItem key={text} disablePadding>
+         <Link to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text}`}> <ListItem key={text} disablePadding>
          <ListItemButton>
            <ListItemIcon>
              

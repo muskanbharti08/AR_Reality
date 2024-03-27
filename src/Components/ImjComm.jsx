@@ -21,7 +21,7 @@ export default function ImjComm() {
           <p className="">&#x20b9; 20000</p>
         </div>
 
-        <div className="flex justify-around mb-2">
+        <div className="flex justify-around items-center mb-2">
           <p className="text-sm">Sector - 111, Dwarka Expressway</p>
           <button className='text-sm bg-blue-700 text-white font-bold p-1  rounded-l-md rounded-r-3xl pr-3 '>FOR SALE</button>
         </div>
