@@ -10,7 +10,7 @@ export default function Contact() {
    <>
    <ResidencyImj head = "Contact Us "  title="Home - Contact Us "/>
 
-<div className="flex justify-center space-x-4 text-center mt-4">
+<div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center sm:space-x-4 text-center mt-4">
   <div className="1 w-52 ">
     <HomeIcon/>
     <h1 className="">adress</h1>

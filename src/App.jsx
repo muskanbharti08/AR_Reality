@@ -9,7 +9,6 @@ import About from "./Components/About";
 import Residency from "./Components/Residency";
 import Commercial from "./Components/Commercial";
 import Developer from "./Components/Developer";
-import Saam from "./Components/Saam";
 
 
 
@@ -29,7 +28,7 @@ function App() {
       <Route path="/dev"   element={<Developer/>}/>
     </Routes>
 
-<Saam/>
+
 
   <Footer/>
   </>
