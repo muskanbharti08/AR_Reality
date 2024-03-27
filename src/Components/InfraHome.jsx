@@ -4,7 +4,7 @@ export default function InfraHome() {
   return (
     <>
 
-<nav className="flex flex-col  space-y-12 sm:space-y-0 sm:items-center sm:mx-10 sm:flex-row-reverse sm:justify-center sm:gap-6">
+<nav className="flex flex-col  space-y-12 sm:space-y-0 sm:items-center sm:mx-auto sm:flex-row-reverse sm:justify-center  sm:gap-6">
 
 
    

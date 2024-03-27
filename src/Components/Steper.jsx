@@ -11,24 +11,24 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
 const images = [
   {
-    label: 'San Francisco United States',
+    label: 'Dwarika Delhi',
     imgPath:
-      'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    label: 'Bird',
+    label: 'New Delhi ,Noida ',
     imgPath:
-      'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    label: 'Bali, Indonesia',
+    label: 'Delhi,gurugram',
     imgPath:
-      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
+      'https://images.pexels.com/photos/443378/pexels-photo-443378.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   {
-    label: 'Goč, Serbia',
+    label: 'Delhi noida',
     imgPath:
-      'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://images.pexels.com/photos/593153/pexels-photo-593153.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
 ];
 

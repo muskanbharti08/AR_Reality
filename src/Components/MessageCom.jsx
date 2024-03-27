@@ -20,7 +20,7 @@ export default function MessageCom() {
           
           </div>
 
-<div className="ml-4 mt-4 sm:ml-20">
+<div className="ml-4 mt-4 sm:ml-32">
 <Button variant="contained">Send Message</Button>
 </div>
          
