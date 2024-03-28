@@ -18,7 +18,7 @@ title : "Sector - 111, Dwarka Expressway"
 }
 
 let obj2 = {
-        title:"",
+        title:"Sector - 104, Dwarka Expressway",
         img: url2,
         area: 2229,
         bed: 3,
@@ -28,7 +28,7 @@ let obj2 = {
 }
 
 let obj3 = {
-        title:"",
+        title:"Sector - 111, Dwarka Expressway",
         img: url3,
         area: 1445,
         bed: 2,
@@ -39,7 +39,7 @@ let obj3 = {
 
 
 let obj4 = {
-        title:"",
+        title:"Sector 37D, Gurgaon",
         img: url6,
         area: 1100,
         bed: 3,
@@ -51,7 +51,7 @@ let obj4 = {
 
 
 let obj5 = {
-        title:"",
+        title:"Sector 93 Gurgaon",
         img: url5,
         area: 160,
         bed: 2,
@@ -62,7 +62,7 @@ let obj5 = {
 
 
 let obj6 = {
-        title:"",
+        title:"Sector 106, Gurugram",
         img: url4,
         area: 2600,
         bed: 3,
@@ -73,7 +73,7 @@ let obj6 = {
 
 
 let obj7 = {
-        title:"",
+        title:"Sector 113, Gurugram",
         img: url6,
         area: 1370,
         bed: 2.5,
@@ -84,81 +84,24 @@ let obj7 = {
 
 
 let obj8 = {
-        title:"",
+        title:"Sector 37D, Gurgaon",
         img: url3,
-        area: 2250,
-        bed: 9,
-        sour:4,
-        address:"Navraj The Antalyas",
-        price:92000 
-}
-
-let obj9 = {
-        title:"",
-        img: url2,
-        area: 160,
-        bed: 2,
-        sour:2,
-        address:"DLF Gardern City",
-        price:" 1.50 Cr."
-}
-
-let obj10 = {
-        title:"",
-        img: url1,
-        area:2600,
-        bed: 3,
-        sour:3,
-        address:"Elan The Presidential",
-        price:"4.07 Cr*"
-}
-let obj11 = {
-        title:"",
-        img: url2,
-        area: 1665,
+        area:1665,
         bed: 3,
         sour:2,
         address:"M3M Crown",
-        price:" 2.32 Cr*" 
+        price:"2.32 Cr*"
 }
-let obj12 = {
-        title:"",
-        img: url3,
-        area: 1100,
+
+let obj9 = {
+        title:"Sector 99a, Gurgaon",
+        img: url2,
+        area: 1550,
         bed: 2,
         sour:2,
         address:"Pareena Coban Residences",
-        price:" 1.20 Cr* ",
-        title : "Sector 99a, Gurgaon"
-}
-
-let obj13 = {
-        title:"",
-        img: url6,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
-}
-let obj14 = {
-        img: url5,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
-}
-let obj15 = {
-        img: url1,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        price:" 1.20 Cr*."
 }
 
 
-
-
-export let array = [obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8,obj9,obj10,obj11,obj12,obj13,obj14,obj15]
+export let array = [obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8,obj9]

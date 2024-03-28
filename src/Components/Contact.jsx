@@ -13,7 +13,7 @@ export default function Contact() {
 <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center sm:space-x-4 text-center mt-4">
   <div className="1 w-52 ">
     <HomeIcon/>
-    <h1 className="">adress</h1>
+    <h1 className="">address</h1>
     <h1 className="text-sm text-gray-500 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, tenetur!</h1>
   </div>
   <div className="2 w-52 ">

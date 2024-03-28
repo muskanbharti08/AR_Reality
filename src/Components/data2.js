@@ -11,108 +11,50 @@ let url6 = "https://climbinfra.com/main-images/projects/sg-park-4&5.jpg"
 
 let obj1 = {
         img: url1,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        bName: "Retail Shop, Office Space",
+        title: "M3M Capital Walk",
+        address: "Sector 113 Dwarka Expressway Gurgaon",
+        
 }
 
 let obj2 = {
         img: url2,
-        area: 1700,
         bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        title: "Gallexie 91",
+        address: "Sector 91, Gurugram",
+        
 }
 
 let obj3 = {
         img: url3,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        bName: "66 - 136 Sq. Yd.",
+        title: "Spaze 114 SCO Plots",
+        address: "Dwarka Expressway",
+        
 }
 
 let obj4 = {
         img: url4,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        bName: "74.99 - 113.86 Sq. Yd.",
+        title: "M3M 114 Market",
+        address: "Sector 114 Gurgaon",
+        
 }
 
 let obj5 = {
         img: url5,
-        area: 5700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        bName: "Rs. 6750 per Sq. Ft.",
+        title: "The Plaza 106",
+        address: "Sector 106 Gurgaon",
+        
 }
 let obj6 = {
         img: url6,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-let obj7 = {
-        img: url1,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-let obj8 = {
-        img: url2,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-let obj9 = {
-        img: url3,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
+        
+        bName: "Area From 250 Sq. Ft",
+        title: "Neo Centra",
+        address: "Sector 103 in Gurugram",
+        
 }
 
-let obj10 = {
-        img: url4,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-
-let obj11 = {
-        img: url5,
-        area: 1700,
-        bName: "Retail Shop, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-
-let obj12 = {
-        img: url6,
-        area: 1700,
-        bName: "kabir complex, Cinema",
-        title: "Puri Diplomatic Greens",
-        address: "Sector - 111, Dwarka Expressway",
-        price: 2000
-}
-
-
-
-export let array2 = [obj1,obj2,obj3,obj4,obj5,obj6,obj7,obj8,obj9,obj10,obj11,obj12]
+export let array2 = [obj1,obj2,obj3,obj4,obj5,obj6]

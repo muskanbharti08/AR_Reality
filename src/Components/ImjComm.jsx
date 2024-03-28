@@ -1,8 +1,8 @@
 import React from 'react'
 import CropIcon from '@mui/icons-material/Crop';
-import BedIcon from '@mui/icons-material/Bed';
-import ShowerIcon from '@mui/icons-material/Shower';
-export default function ImjComm({img,area,bname,title,address,price}) {
+
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+export default function ImjComm({img,bname,title,address}) {
   return (
     <>
       <div className=" ">
@@ -17,13 +17,12 @@ export default function ImjComm({img,area,bname,title,address,price}) {
         </div>
 
         <div className="flex justify-around my-2 sm:my-4">
-          <p className="">{title}</p>
-          <p className="">&#x20b9; 
-          {price}</p>
+          <p className="font-semibold">{title}</p>
+          <p className="font-semibold">Price On Call</p>
         </div>
 
         <div className="flex justify-around items-center mb-6 sm:mb-6">
-          <p className="text-sm">{address}</p>
+          <p className="text-sm"><span className='text-gray-500'><LocationOnIcon/></span>{address}</p>
           <button className='text-sm bg-blue-700 text-white font-bold p-1  rounded-l-md rounded-r-3xl pr-3 '>FOR SALE</button>
         </div>
       </div>
