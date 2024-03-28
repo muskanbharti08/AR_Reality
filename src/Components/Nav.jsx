@@ -12,9 +12,15 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InfoIcon from '@mui/icons-material/Info';
 import RoofingIcon from '@mui/icons-material/Roofing';
+import DomainAddIcon from '@mui/icons-material/DomainAdd';
+import EmojiTransportationIcon from '@mui/icons-material/EmojiTransportation';
+import BuildIcon from '@mui/icons-material/Build';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 
 export default function Nav() {
-
+  let makeColor = ({isActive})=>{
+    return isActive?"bg-blue-100 text-blue-400 underline ":""
+}
   const [open, setOpen] = React.useState(false);
 
   const toggleDrawer = (newOpen) => () => {
@@ -35,25 +41,30 @@ export default function Nav() {
                 <NavLink className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/contact">Contact us</NavLink>
         </div>
 
-     <div className="forphone sm:hidden">
+     <div className="forphone sm:hidden ">
      <Button onClick={toggleDrawer(true)}><DehazeIcon/></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
-      <Box sx={{ width: 450 }} role="presentation" onClick={toggleDrawer(false)}>
+      <Box sx={{ width: 370 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
         {
         ['home', 'about', 'Residential Property', 'Commercial Property','Our Developers','contact'].map((text, index) => (
-         <Link to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text=="home"?"":text}`}> <ListItem key={text} disablePadding>
+         <NavLink className={makeColor} to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text=="home"?"":text}`}> <ListItem key={text}  disablePadding>
          <ListItemButton>
            <ListItemIcon>
              
              {   index==0?<HomeIcon/>:""}
                
                { index==1?<InfoIcon/>:""}
+               { index==2?<DomainAddIcon/>:""}
+               { index==3?<EmojiTransportationIcon/>:""}
+               { index==4?<BuildIcon/>:""}
+               { index==5?<ContactPageIcon/>:""}
 
            </ListItemIcon>
            <ListItemText primary={text} />
          </ListItemButton>
-       </ListItem></Link>
+       </ListItem>
+       </NavLink>
         ))
         }
       </List>

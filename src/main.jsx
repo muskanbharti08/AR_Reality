@@ -4,8 +4,7 @@ import App from './App.jsx';
 import "./index.css"
 import { HashRouter } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ ReactDOM.createRoot(document.getElementById('root')).render(
   <HashRouter>
     <App />
   </HashRouter>

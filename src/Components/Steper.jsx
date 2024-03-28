@@ -9,12 +9,22 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
 
+
+let url1 = "https://climbinfra.com/main-images/projects/ats/slider-1.jpg";
+let url2 = "https://climbinfra.com/main-images/projects/sg-city-92.jpg"
 const images = [
   {
     label: 'Dwarika Delhi',
     imgPath:
       'https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
+
+  {
+    label: 'gurgram Delhi',
+    imgPath:url1
+  }, {
+    label: 'Noida Delhi',
+    imgPath:url2 },
   {
     label: 'New Delhi ,Noida ',
     imgPath:

@@ -1,6 +1,7 @@
 import React from 'react'
 import ResidencyImj from './ResidencyImj'
 import Brand from './Brand'
+import { brandArray } from './branddata';
 
 import { Link } from 'react-router-dom';
 export default function Developer() {
@@ -13,21 +14,10 @@ export default function Developer() {
       <div className="grid  grid-cols-3 sm:grid-cols-6 gap-4 mt-4 w-11/12 mx-auto">
 
         
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
-        <Brand/>
+       {
+       brandArray.map((ele)=><Brand img = {ele}/>)
+       }
+      
       </div>
 
 
