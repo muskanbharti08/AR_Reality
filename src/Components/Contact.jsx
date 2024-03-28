@@ -19,13 +19,13 @@ export default function Contact() {
   <div className="2 w-52 ">
   <h1 className=""><CallIcon/></h1>
     <h1 className="">Phone</h1>
-    <h1 className="text-xs hover:text-blue-600 text-gray-500 "><a href='tel:+919798688'>4651324553</a></h1>
+    <h1 className="text-xs hover:text-blue-600 text-gray-500 "><a href='tel:+919717191415'>9717191415</a></h1>
 
   </div>
   <div className="3 w-52 ">
   <h1 className=""><EmailIcon/></h1>
     <h1 className="">Email</h1>
-    <h1 className="text-sm text-gray-500 hover:text-blue-600"><a href="mailto:abc@gmail.com">abc@gmail.com</a></h1>
+    <h1 className="text-sm text-gray-500 hover:text-blue-600"><a href="mailto:rajeevranjan2kumar@gmail.com">rajeevranjan2kumar@gmail.com</a></h1>
 
   </div>
 

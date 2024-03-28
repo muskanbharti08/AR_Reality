@@ -4,8 +4,9 @@ import BedIcon from '@mui/icons-material/Bed';
 import ShowerIcon from '@mui/icons-material/Shower';
 import { NavLink } from 'react-router-dom';
 import Order from './Order';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
-export default function Img({img,area,bed,sour,address,price}) {
+export default function Img({img,area,bed,sour,address,price,title}) {
 
 let [clk,setClk] = useState(false);
 
@@ -27,12 +28,12 @@ let clickKro= ()=>{
         </div>
 
         <div className="flex justify-around my-4">
-          <p className="">{address}</p>
+          <p className="font-semibold">{address}</p>
           <p className="">&#x20b9; {price}</p>
         </div>
 
         <div className="flex justify-around mb-2">
-          <p className="text-sm">Sector - 111, Dwarka Expressway</p>
+          <p className="text-sm"><span className='text-gray-600 '><LocationOnIcon/></span>{title}</p>
          
         
 

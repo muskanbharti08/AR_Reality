@@ -11,114 +11,129 @@ img: url1,
 area: 1700,
 bed: 3,
 sour:3,
-address:"Sector - 111, Dwarka Expressway",
-price:2000
+address:"Puri Diplomatic Greens",
+price:" 2.0 Cr.",
+title : "Sector - 111, Dwarka Expressway"
+
 }
 
 let obj2 = {
+        title:"",
         img: url2,
-        area: 1200,
-        bed: 5,
-        sour:4,
-        address:"Nehru Place",
-        price:2000 
+        area: 2229,
+        bed: 3,
+        sour:3,
+        address:"ATS Triumph",
+        price:"2.74 Cr." 
 }
 
 let obj3 = {
+        title:"",
         img: url3,
-        area: 100,
-        bed: 5,
-        sour:4,
-        address:"Lajpat Nagar",
-        price:29000 
+        area: 1445,
+        bed: 2,
+        sour:2,
+        address:"Kashish Manor One",
+        price:"1.45 Cr."
 }
 
 
 let obj4 = {
+        title:"",
         img: url6,
         area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Hauz Khas",
-        price:92000 
+        bed: 3,
+        sour:3,
+        address:"Navraj The Antalyas",
+        price:"2.10 Cr." 
 }
 
 
 
 let obj5 = {
+        title:"",
         img: url5,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area: 160,
+        bed: 2,
+        sour:2,
+        address:"DLF Gardern City",
+        price:"1.50 Cr."
 }
 
 
 let obj6 = {
+        title:"",
         img: url4,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area: 2600,
+        bed: 3,
+        sour:3,
+        address:"Elan The Presidential",
+        price:" 4.07 Cr*"
 }
 
 
 let obj7 = {
+        title:"",
         img: url6,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area: 1370,
+        bed: 2.5,
+        sour:2,
+        address:"Smart World One DXP",
+        price:"2.25 Cr*"
 }
 
 
 let obj8 = {
+        title:"",
         img: url3,
-        area: 1100,
+        area: 2250,
         bed: 9,
         sour:4,
-        address:"Karol Bagh",
+        address:"Navraj The Antalyas",
         price:92000 
 }
 
 let obj9 = {
+        title:"",
         img: url2,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area: 160,
+        bed: 2,
+        sour:2,
+        address:"DLF Gardern City",
+        price:" 1.50 Cr."
 }
 
 let obj10 = {
+        title:"",
         img: url1,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area:2600,
+        bed: 3,
+        sour:3,
+        address:"Elan The Presidential",
+        price:"4.07 Cr*"
 }
 let obj11 = {
+        title:"",
         img: url2,
-        area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        area: 1665,
+        bed: 3,
+        sour:2,
+        address:"M3M Crown",
+        price:" 2.32 Cr*" 
 }
 let obj12 = {
+        title:"",
         img: url3,
         area: 1100,
-        bed: 9,
-        sour:4,
-        address:"Karol Bagh",
-        price:92000 
+        bed: 2,
+        sour:2,
+        address:"Pareena Coban Residences",
+        price:" 1.20 Cr* ",
+        title : "Sector 99a, Gurgaon"
 }
 
 let obj13 = {
+        title:"",
         img: url6,
         area: 1100,
         bed: 9,
