@@ -39,12 +39,12 @@ export default function Footer1() {
 
 
                                         <nav className="flex flex-col space-y-1 text-gray-200 ">
-                                                <NavLink className={makeColor} to="/" ><h1 className="">Home</h1></NavLink>
-                                                <NavLink className={makeColor} to="/about" ><h1 className="">About Us</h1></NavLink>
-                                                <NavLink className={makeColor} to="/rproperty" ><h1 className="">Residential Property</h1></NavLink>
-                                                <NavLink className={makeColor} to="/cproperty" ><h1 className="">Commercial Property</h1></NavLink>
-                                                <NavLink className={makeColor} to="/dev" ><h1 className="">Our Developers</h1></NavLink>
-                                                <NavLink className={makeColor} to="/contact" ><h1 className="">Contact Us</h1></NavLink>
+                                                <NavLink className={makeColor} to="/" ><h1 onClick={()=>{document.title ="Home"}}className="">Home</h1></NavLink>
+                                                <NavLink className={makeColor} to="/about" ><h1 onClick={()=>{document.title ="about_Muskan"}} className="">About Us</h1></NavLink>
+                                                <NavLink className={makeColor} to="/rproperty" ><h1 onClick={()=>{document.title ="property"}} className="">Residential Property</h1></NavLink>
+                                                <NavLink className={makeColor} to="/cproperty" ><h1 onClick={()=>{document.title ="commercial_Muskan"}} className="">Commercial Property</h1></NavLink>
+                                                <NavLink className={makeColor} to="/dev" ><h1 onClick={()=>{document.title ="developer_Muskan"}}className="">Our Developers</h1></NavLink>
+                                                <NavLink className={makeColor} to="/contact" ><h1 onClick={()=>{document.title ="Contact"}} className="">Contact Us</h1></NavLink>
                                         </nav>
 
                                 </div>

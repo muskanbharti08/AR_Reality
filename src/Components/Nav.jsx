@@ -33,22 +33,22 @@ export default function Nav() {
          <div className="flex justify-around  items-center text-sm">
         <div className="text-xl font-bold"><a className='text-blue-700'>A</a>r <a className='text-blue-700'>r</a><a>e</a><a className='text-blue-700'>a</a><a className=''>l</a><a className="text-blue-700">i</a><a>t</a><a className='text-blue-700'>y</a> <p className="text-sm ml-1 font-semibold">pvt ltd. <RoofingIcon/></p></div>
         <div className=" justify-center space-x-5 text-gray-500  hidden sm:flex">
-                <NavLink className={({isActive})=> isActive?"text-blue-800 underline":""} to="/">Home</NavLink>
-                <NavLink className={({isActive})=> isActive?"text-blue-800 hover:underline":"" }      to="/about">About us</NavLink>
-                <NavLink className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/rproperty">Residential Property</NavLink>
-                <NavLink className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/cproperty">Commercial Property</NavLink>
-                <NavLink className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/dev">Our Developers</NavLink>
-                <NavLink className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/contact">Contact us</NavLink>
+                <NavLink onClick={()=>{document.title ="home M"}} className={({isActive})=> isActive?"text-blue-800 underline":""} to="/">Home</NavLink>
+                <NavLink onClick={()=>{document.title ="about_Muskan"}} className={({isActive})=> isActive?"text-blue-800 hover:underline":"" }      to="/about">About us</NavLink>
+                <NavLink onClick={()=>{document.title ="Residencial"}} className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/rproperty">Residential Property</NavLink>
+                <NavLink onClick={()=>{document.title ="Commercial"}} className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/cproperty">Commercial Property</NavLink>
+                <NavLink onClick={()=>{document.title ="Developer_Muskan"}} className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/dev">Our Developers</NavLink>
+                <NavLink onClick={()=>{document.title ="Contact"}} className={({isActive})=> isActive?"text-blue-800 underline":"" }     to="/contact">Contact us</NavLink>
         </div>
 
      <div className="forphone sm:hidden ">
      <Button onClick={toggleDrawer(true)}><DehazeIcon/></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
-      <Box sx={{ width: 370 }} role="presentation" onClick={toggleDrawer(false)}>
+      <Box sx={{ width: 320 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
         {
         ['home', 'about', 'Residential Property', 'Commercial Property','Our Developers','contact'].map((text, index) => (
-         <NavLink className={makeColor} to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text=="home"?"":text}`}> <ListItem key={text}  disablePadding>
+         <NavLink onClick={()=>{document.title = `${text}_Muskan`}} className={makeColor} to={`/${text=="Residential Property"?"rproperty":text=="Commercial Property"?"cproperty":text=="Our Developers"?"dev":text=="home"?"":text}`}> <ListItem key={text}  disablePadding>
          <ListItemButton>
            <ListItemIcon>
              
