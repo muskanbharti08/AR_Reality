@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
 
-<ResidencyImj head="About Us" title=" About us"/>
+<ResidencyImj head="About Us" title=" - About us"/>
 
 
       <InfraHome/>

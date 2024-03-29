@@ -8,7 +8,7 @@ export default function Developer() {
   return (
     <div>
 
-      <ResidencyImj head = "Our Clients"  title = "Home - our clients"  />
+      <ResidencyImj head = "Our Clients"  title = " - our clients"  />
 
 
       <div className="grid  grid-cols-3 sm:grid-cols-6 gap-4 mt-4 w-11/12 mx-auto">
