@@ -12,13 +12,17 @@ import Order from "./Components/Order";
 import Footer1 from "./Components/Footer1";
 import CallIcon from '@mui/icons-material/Call';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
-
+import ScrollIntoView from "react-scroll-into-view";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 
 function App() {
   return (
   <>
+    
+
+<div id= "id1" className=""></div>
+
   <Nav/>
 
     <Routes>
@@ -31,17 +35,24 @@ function App() {
       <Route path="/dev"   element={<Developer/>}/>
       <Route path="/order"   element={<Order/>}/>
     </Routes>
+    
 
-<div className="fixed bottom-10 left-5 ">
+<div className="fixed bottom-5 left-5 ">
 <a href="tel:9717191415" className="text-white border rounded-full p-2 bg-blue-800"><CallIcon/></a>
 </div>
 
 
-<div className="fixed bottom-24 left-5 ">
-<a href="https://api.whatsapp.com/send?phone=9801636301" className="text-white border rounded-full py-3 px-3 bg-green-800 "><WhatsAppIcon/></a>
+<div className="fixed bottom-20 left-5 ">
+<a href="https://api.whatsapp.com/send?phone=+919801636301" className="text-white border rounded-full py-3 px-3 bg-green-800 "><WhatsAppIcon/></a>
 </div>
 
  <Footer1/>
+<div className="fixed bottom-5 right-5 text-white bg-blue-700 rounded-full p-2 hover:bg-blue-800">
+<ScrollIntoView selector="#id1">
+  <ArrowUpwardIcon/>
+</ScrollIntoView>
+  
+</div>
   </>
   )
 }
