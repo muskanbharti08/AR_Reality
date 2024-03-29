@@ -10,8 +10,8 @@ let logo7 = "https://tse4.mm.bing.net/th?id=OIP.Oft6oxbtpzIOpHFJSXGnVgHaFO&pid=A
 let logo8 = "https://tse3.mm.bing.net/th?id=OIP.HvJHUUIsnwnoGWK6vNrM_gHaDA&pid=Api&P=0&h=220";
 let logo9 = "https://tse3.mm.bing.net/th?id=OIP.DL4t0HfLM4WfiWdBNMshWgHaE0&pid=Api&P=0&h=220";
 let logo10 = "https://tse3.mm.bing.net/th?id=OIP.5Ih3fXWRacdLdKqV8Hrb7QHaHa&pid=Api&P=0&h=220";
-let logo11 = "https://tse3.mm.bing.net/th?id=OIP.5Ih3fXWRacdLdKqV8Hrb7QHaHa&pid=Api&P=0&h=220";
-let logo12 = "https://tse3.mm.bing.net/th?id=OIP.5Ih3fXWRacdLdKqV8Hrb7QHaHa&pid=Api&P=0&h=220";
+let logo11 = "https://tse3.mm.bing.net/th?id=OIP.eNXr_GNF5ACskaSjKvgAQAHaE7&pid=Api&P=0&h=220";
+let logo12 = "https://tse3.mm.bing.net/th?id=OIP.r0HtX7FMJKolxOsVnkW3CQHaGw&pid=Api&P=0&h=220";
 
 
 

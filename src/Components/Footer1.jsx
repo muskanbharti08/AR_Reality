@@ -107,7 +107,7 @@ export default function Footer1() {
                                 </div>
 
                                 <div className="flex flex-row justify-center">
-                                        <h1 className="text">Copyright © 2024 <span className='font-bold  ml-4 text-zinc-800 mb-2'>Muskan Bharti</span></h1>
+                                        <h1 className="text">Copyright © 2024 <span className='font-bold  ml-4 text-zinc-800 mb-2 hover:text-blue-800 hover:skew-x-3'>Muskan Bharti</span></h1>
 
                                 </div>
 

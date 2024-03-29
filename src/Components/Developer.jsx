@@ -21,7 +21,7 @@ export default function Developer() {
       </div>
 
 
-      <div className="flex flex-col items-center space-y-2 space-x-0 divide-y-2 sm:divide-y-0 divide-blue-700  sm:flex-row justify-center  sm:space-x-3 mt-4 sm:divide-x-4 sm:divide-red-950">
+      <div className="flex flex-col items-center space-y-2 space-x-0 divide-y-2 sm:divide-y-0 divide-blue-700  sm:flex-row justify-center  sm:space-x-3 mt-4 sm:divide-x-4 sm:divide-red-950 sm:space-y-0">
         <Link to="/rproperty" className=''>RESIDENTIAL</Link>
         <Link to='/cproperty' className='pl-3'>COMMERCIAL</Link>
         <Link className='pl-3'>RETAIL SHOP</Link>

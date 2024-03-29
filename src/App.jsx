@@ -37,13 +37,13 @@ function App() {
     </Routes>
     
 
-<div className="fixed bottom-5 left-5 ">
-<a href="tel:9717191415" className="text-white border rounded-full p-2 bg-blue-800"><CallIcon/></a>
+<div className="fixed bottom-5 left-5 flex items-center justify-center">
+<a href="tel:9717191415" className="text-white border rounded-full p-1 bg-blue-800"><CallIcon/></a>
 </div>
 
 
-<div className="fixed bottom-16 left-5 ">
-<a href="https://api.whatsapp.com/send?phone=+919717191415" className="text-white border rounded-full py-3 px-3 bg-green-800 "><WhatsAppIcon/></a>
+<div className="fixed bottom-16 left-5 flex items-center justify-center ">
+<a href="https://api.whatsapp.com/send?phone=9717191415" className="text-white border rounded-full py-2 px-2 bg-green-800 "><WhatsAppIcon/></a>
 </div>
 
  <Footer1/>

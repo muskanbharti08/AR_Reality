@@ -8,7 +8,7 @@ import MessageCom from './MessageCom';
 export default function Contact() {
   return (
    <>
-   <ResidencyImj head = "Contact Us "  title="- Contact Us "      />
+   <ResidencyImj head = "Contact Us "  title=" - Contact Us "      />
 
 <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-center sm:space-x-4 text-center mt-4 sm:items-center">
   <div className="1 w-72">
@@ -25,7 +25,7 @@ export default function Contact() {
   <div className="3 w-52 sm:flex sm:flex-col sm:space-y-1">
   <h1 className=""><EmailIcon/></h1>
     <h1 className="">Email</h1>
-    <h1 className="text-sm text-gray-500 hover:text-blue-600"><a href="mailto:rajeevranjan2kumar@gmail.com">rajeevranjan2kumar@gmail.com</a></h1>
+    <h1 className="text-sm text-gray-500 hover:text-blue-600 "><a href="mailto:rajeevranjan2kumar@gmail.com">rajeevranjan2kumar@gmail.com</a></h1>
 
   </div>
 
