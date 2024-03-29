@@ -42,8 +42,8 @@ function App() {
 </div>
 
 
-<div className="fixed bottom-20 left-5 ">
-<a href="https://api.whatsapp.com/send?phone=+919801636301" className="text-white border rounded-full py-3 px-3 bg-green-800 "><WhatsAppIcon/></a>
+<div className="fixed bottom-16 left-5 ">
+<a href="https://api.whatsapp.com/send?phone=+919717191415" className="text-white border rounded-full py-3 px-3 bg-green-800 "><WhatsAppIcon/></a>
 </div>
 
  <Footer1/>
